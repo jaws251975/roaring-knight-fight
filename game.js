@@ -76,7 +76,7 @@ updateSoul();
 function spawnSword(x, y, angle = 0, speed = 7) {
   const sword = document.createElement("img");
 
-  sword.src = "assets/knight-sword.png";
+  sword.src = "assets/knight-sword.jpeg";
   sword.className = "sword";
 
   sword.style.left = x + "px";
